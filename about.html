@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Web Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2b2b45);
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: radial-gradient(circle, #2d2d4d, #1e1e2f);
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #ff4081;
+    }
+    header h2 {
+      font-size: 1.5rem;
+      color: #ddd;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .about {
+      text-align: center;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .project {
+      background-color: #292947;
+      padding: 1.5rem;
+      border-radius: 12px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      border: 1px solid #444;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .project h3 {
+      margin-bottom: 0.5rem;
+      color: #ffcc00;
+    }
+
+    .project p {
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      color: #ff4081;
+      text-decoration: none;
+      margin: 0 0.5rem;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      background-color: #1a1a2b;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+</head>
+<body>
+    <header>
+    <h1>Lerato Pinky Thungo</h1>
+    <h2>Web Developer</h2>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer with a love for clean code, responsive design, and building digital experiences that delight users. I specialize in front-end development using HTML, CSS, and JavaScript.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website to showcase my work and skills. Built with HTML, CSS, JS, API tools & AI.</p>
+      </div>
+      <div class="project">
+        <h3>Landing Page</h3>
+        <p>A modern, responsive landing page for a fictional app. Includes smooth scrolling and grid layout.</p>
+      </div>
+      <div class="project">
+        <h3>Blog Template</h3>
+        <p>A clean blog layout built with semantic HTML and custom CSS styles, ready for CMS integration.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:lerato@example.com">leedlamz54@gmail.com</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/lerato-pinky-thungo-55a887313/">LinkedIn</a> | 
+      <a href="https://github.com/LeratoDaisy">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Lerato Pinky Thungo. All rights reserved.
+  </footer>
+</body>
+</html>
